@@ -14,3 +14,6 @@ require("../../../public/javascripts/translations")
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+
+require("trix")
+require("@rails/actiontext")
